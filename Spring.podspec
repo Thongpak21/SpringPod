@@ -1,17 +1,15 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Spring'
-  s.version          = '8.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'CommonClass for MyAIS'
 
   s.homepage         = 'http://nextzy.me/'
   s.license      = 'Nextzy'
   s.author           = { 'Thongpak Pongsilathong' => 'thongpak21@gmail.com' }
-  #s.source       = { :git => 'git@bitbucket.org:nextzy_mobile/myais-common-ios.git',:tag => s.version.to_s}
+  s.source       = { :git => 'https://github.com/Thongpak21/SpringPod.git',:tag => s.version.to_s}
 
   s.ios.deployment_target = '8.0'
-  s.exclude_files = '**/AppDelegate.swift'
-  s.preserve_paths = 'CommonClassMyAIS-Resources/**/*.{lproj}',
 
   s.framework  = 'UIKit'
   s.requires_arc = true
