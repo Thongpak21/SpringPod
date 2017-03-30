@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
 
   s.framework  = 'UIKit'
   s.requires_arc = true
-  s.default_subspec = 'All'
   s.source_files = 'Spring/*.swift'
   s.resources = ['Spring/*.xib', 'SpringApp/*.xcassets']
 end
