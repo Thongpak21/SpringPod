@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpringPod'
-  s.version          = '1.0.0'
+  s.version          = '1.2.1'
   s.summary          = 'Spring for Xcode 8 swift3'
 
   s.homepage         = ''
