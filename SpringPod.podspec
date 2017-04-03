@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpringPod'
-  s.version          = '1.2.1'
+  s.version          = '1.2.2'
   s.summary          = 'Spring for Xcode 8 swift3'
     `echo "2.3" > .swift-version`
   s.homepage         = 'nextzy.me'
