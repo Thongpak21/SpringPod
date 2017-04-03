@@ -23,7 +23,6 @@
 import UIKit
 
 public extension String {
-    public var length: Int { return self.characters.count }
 
     public func toURL() -> NSURL? {
         return NSURL(string: self)
